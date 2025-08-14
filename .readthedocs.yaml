@@ -5,6 +5,6 @@ build:
   tools:
     python: "3.10"
   commands:
-    - echo "Building version: $READTHEDOCS_VERSION"
+    - echo "Building version $READTHEDOCS_VERSION"
     - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r docs/* $READTHEDOCS_OUTPUT/html/
