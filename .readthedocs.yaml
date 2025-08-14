@@ -7,4 +7,5 @@ build:
   commands:
     - echo "Building version $READTHEDOCS_VERSION"
     - mkdir -p $READTHEDOCS_OUTPUT/html/
+    # Copy the prebuilt docs into the read the docs output directory 
     - cp -r docs/* $READTHEDOCS_OUTPUT/html/
