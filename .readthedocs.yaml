@@ -6,7 +6,5 @@ build:
     python: "3.10"
   commands:
     - echo "Building version: $READTHEDOCS_VERSION"
-    # Create output directory
     - mkdir -p $READTHEDOCS_OUTPUT/html/
-    # Copy prebuilt docs into output directory
     - cp -r docs/* $READTHEDOCS_OUTPUT/html/
